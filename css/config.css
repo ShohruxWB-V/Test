@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6,ul,li,label{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1232px;
+    padding: 0 16px;
+    margin: 0 auto;
+}

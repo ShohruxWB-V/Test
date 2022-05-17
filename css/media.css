@@ -1,0 +1,162 @@
+@media (max-width:992px) {
+    .header-logo {
+        order: 0;
+    }
+
+    .navbar-toggler {
+        order: 2;
+
+    }
+
+    .header-btns {
+        order: 1;
+        margin-left: auto;
+        margin-right: 13px;
+    }
+
+    .navbar-custom {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 100%;
+        background: white;
+    }
+}
+
+@media (max-width:958px) {
+    .banner-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .store-wrapper>h6,
+    h2,
+    p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigating-wrapper>p,
+    h6,
+    h2 {
+        text-align: center;
+    }
+
+    .navigating-wrapper>.row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .magazine-wrapper>.row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:767px) {
+    .magazine-title {
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width:612px) {
+    .shop-inner>ul {
+        flex-wrap: wrap;
+    }
+
+    .shop-inner li {
+        width: 48%;
+    }
+}
+
+
+@media (max-width:568px) {
+    .shop-inner li {
+        width: 100%;
+    }
+}
+
+@media (max-width:456px) {
+    .email {
+        width: 100%;
+    }
+
+    .submit {
+        background: #F9FAFB;
+        border: none;
+        border-radius:10px;
+        height: 39px;
+        padding: 0 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #575445;
+        top:7px;
+        right: 7px;
+        outline: none;
+
+    }
+}
+
+@media (max-width:325px) {
+    .navbar>.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-btns {
+        display: none;
+        position: absolute;
+    }
+
+    .email {
+        width: 453px;
+        max-width: max-content;
+    }
+}
+
+
+@media (max-width:308px){
+    .submit {
+        position: absolute;
+        background: #575445;
+        border-radius: 10px;
+        height: 39px;
+        padding: 0 11px;
+        border:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+        top:7px;
+        right: 7px;
+    }
+}

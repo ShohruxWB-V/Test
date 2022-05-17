@@ -1,0 +1,67 @@
+.about-wrapper {
+    margin-top: 100px;
+}
+
+.about-img {
+    width: 576px;
+    height: 576px;
+    max-width: 100%;
+}
+
+.about-img img {
+    width: 100%;
+    max-width: max-content;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-inner {
+    margin-top: 174.5px;
+    margin-left: 104px;
+}
+
+.about-inner h6 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+
+.about-inner h3 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #575445;
+}
+
+.about-inner p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+    margin-top: 8px;
+}
+
+.about-more {
+    margin-top: 19.5px;
+}
+
+.about-more a {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #575445;
+    translate: 500ms all;
+}
+
+.about-more a:hover{
+    transform: 500ms;
+    padding: 0 0 0 15px;
+}
